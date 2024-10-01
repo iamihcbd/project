@@ -8,8 +8,13 @@ df = pd.read_csv('AmesHousing.csv')
 
 # Data preparation based on insights from `ibrahim-project-dashapp.py`
 # Example: Dropping irrelevant columns and handling missing values
-df.drop(['PID'], axis=1, inplace=True)  # Dropping 'PID' as it may not be useful
-df.dropna(axis=1, inplace=True)  # Dropping columns with missing values
+# Replacing NaNs with mean or median, depending on the column
+df['LotFrontage'].fillna(df['LotFrontage'].median(), inplace=True)
+df['MasVnrArea'].fillna(0, inplace=True)  # Replace missing values in masonry veneer area with 0
+df['GarageYrBlt'].fillna(df['YearBuilt'], inplace=True)  # Missing GarageYrBlt can be replaced with YearBuilt
+
+# Drop irrelevant columns that won't be visualized (if needed)
+df.drop(['PID'], axis=1, inplace=True)
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
