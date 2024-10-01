@@ -15,7 +15,7 @@ df.dropna(axis=1, inplace=True)  # Dropping columns with missing values
 app = dash.Dash(__name__)
 
 # Create a scatter plot using Plotly Express
-fig = px.scatter(df, x='Gr Liv Area', y='SalePrice', color='OverallQual',
+fig = px.scatter(df, x='Gr Liv Area', y='SalePrice', color='Overall Qual',
                  title="Living Area vs Sale Price",
                  labels={'Gr Liv Area': 'Above Grade Living Area (sq ft)', 'SalePrice': 'Sale Price'},
                  hover_data=['Neighborhood'])
