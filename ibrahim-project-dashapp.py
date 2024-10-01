@@ -16,7 +16,7 @@
     "papermill": {
      "duration": 0.043638,
      "end_time": "2024-10-01T17:20:09.209536",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:09.165898",
      "status": "completed"
     },
@@ -62,7 +62,7 @@
     "papermill": {
      "duration": 0.014816,
      "end_time": "2024-10-01T17:20:09.239754",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:09.224938",
      "status": "completed"
     },
@@ -79,7 +79,7 @@
     "papermill": {
      "duration": 0.014849,
      "end_time": "2024-10-01T17:20:09.270166",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:09.255317",
      "status": "completed"
     },
@@ -97,7 +97,7 @@
     "papermill": {
      "duration": 0.014896,
      "end_time": "2024-10-01T17:20:09.300715",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:09.285819",
      "status": "completed"
     },
@@ -121,7 +121,7 @@
     "papermill": {
      "duration": 1.311969,
      "end_time": "2024-10-01T17:20:10.627822",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:09.315853",
      "status": "completed"
     },
@@ -152,7 +152,7 @@
     "papermill": {
      "duration": 0.100889,
      "end_time": "2024-10-01T17:20:10.744215",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:10.643326",
      "status": "completed"
     },
@@ -378,7 +378,7 @@
     "papermill": {
      "duration": 0.055329,
      "end_time": "2024-10-01T17:20:10.814872",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:10.759543",
      "status": "completed"
     },
@@ -491,7 +491,7 @@
     "papermill": {
      "duration": 0.015149,
      "end_time": "2024-10-01T17:20:10.846195",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:10.831046",
      "status": "completed"
     },
@@ -515,7 +515,7 @@
     "papermill": {
      "duration": 0.039559,
      "end_time": "2024-10-01T17:20:10.903376",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:10.863817",
      "status": "completed"
     },
@@ -556,7 +556,7 @@
     "papermill": {
      "duration": 0.024692,
      "end_time": "2024-10-01T17:20:10.943735",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:10.919043",
      "status": "completed"
     },
@@ -574,7 +574,7 @@
     "papermill": {
      "duration": 0.015244,
      "end_time": "2024-10-01T17:20:10.974716",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:10.959472",
      "status": "completed"
     },
@@ -591,7 +591,7 @@
     "papermill": {
      "duration": 0.015248,
      "end_time": "2024-10-01T17:20:11.005598",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:10.990350",
      "status": "completed"
     },
@@ -615,7 +615,7 @@
     "papermill": {
      "duration": 0.51896,
      "end_time": "2024-10-01T17:20:11.541220",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:11.022260",
      "status": "completed"
     },
@@ -663,7 +663,7 @@
     "papermill": {
      "duration": 0.016177,
      "end_time": "2024-10-01T17:20:11.574404",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:11.558227",
      "status": "completed"
     },
@@ -680,7 +680,7 @@
     "papermill": {
      "duration": 0.016154,
      "end_time": "2024-10-01T17:20:11.607620",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:11.591466",
      "status": "completed"
     },
@@ -698,7 +698,7 @@
     "papermill": {
      "duration": 0.016411,
      "end_time": "2024-10-01T17:20:11.640406",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:11.623995",
      "status": "completed"
     },
@@ -722,7 +722,7 @@
     "papermill": {
      "duration": 0.029779,
      "end_time": "2024-10-01T17:20:11.687645",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:11.657866",
      "status": "completed"
     },
@@ -758,7 +758,7 @@
     "papermill": {
      "duration": 0.050677,
      "end_time": "2024-10-01T17:20:11.755540",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:11.704863",
      "status": "completed"
     },
@@ -991,7 +991,7 @@
     "papermill": {
      "duration": 8.645372,
      "end_time": "2024-10-01T17:20:20.418571",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:11.773199",
      "status": "completed"
     },
@@ -1022,7 +1022,7 @@
     "papermill": {
      "duration": 0.020639,
      "end_time": "2024-10-01T17:20:20.460520",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:20.439881",
      "status": "completed"
     },
@@ -1039,7 +1039,7 @@
     "papermill": {
      "duration": 0.02024,
      "end_time": "2024-10-01T17:20:20.500628",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:20.480388",
      "status": "completed"
     },
@@ -1066,7 +1066,7 @@
     "papermill": {
      "duration": 0.041606,
      "end_time": "2024-10-01T17:20:20.562549",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:20.520943",
      "status": "completed"
     },
@@ -1091,7 +1091,7 @@
     "papermill": {
      "duration": 0.034314,
      "end_time": "2024-10-01T17:20:20.616845",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:20.582531",
      "status": "completed"
     },
@@ -1129,7 +1129,7 @@
     "papermill": {
      "duration": 0.019709,
      "end_time": "2024-10-01T17:20:20.656238",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:20.636529",
      "status": "completed"
     },
@@ -1161,7 +1161,7 @@
     "papermill": {
      "duration": 7.729682,
      "end_time": "2024-10-01T17:20:28.405762",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:20.676080",
      "status": "completed"
     },
@@ -1279,7 +1279,7 @@
     "papermill": {
      "duration": 0.029023,
      "end_time": "2024-10-01T17:20:28.464744",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:28.435721",
      "status": "completed"
     },
@@ -1299,7 +1299,7 @@
     "papermill": {
      "duration": 0.028358,
      "end_time": "2024-10-01T17:20:28.521731",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:28.493373",
      "status": "completed"
     },
@@ -1323,7 +1323,7 @@
     "papermill": {
      "duration": 0.039134,
      "end_time": "2024-10-01T17:20:28.589059",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:28.549925",
      "status": "completed"
     },
@@ -1348,7 +1348,7 @@
     "papermill": {
      "duration": 0.081138,
      "end_time": "2024-10-01T17:20:28.699609",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:28.618471",
      "status": "completed"
     },
@@ -1377,7 +1377,7 @@
     "papermill": {
      "duration": 0.058983,
      "end_time": "2024-10-01T17:20:28.786936",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:28.727953",
      "status": "completed"
     },
@@ -1441,7 +1441,7 @@
     "papermill": {
      "duration": 0.02814,
      "end_time": "2024-10-01T17:20:28.844159",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:28.816019",
      "status": "completed"
     },
@@ -1465,7 +1465,7 @@
     "papermill": {
      "duration": 0.041506,
      "end_time": "2024-10-01T17:20:28.914319",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:28.872813",
      "status": "completed"
     },
@@ -1493,7 +1493,7 @@
     "papermill": {
      "duration": 0.029451,
      "end_time": "2024-10-01T17:20:28.972981",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:28.943530",
      "status": "completed"
     },
@@ -1510,7 +1510,7 @@
     "papermill": {
      "duration": 0.031312,
      "end_time": "2024-10-01T17:20:29.034781",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:29.003469",
      "status": "completed"
     },
@@ -1528,7 +1528,7 @@
     "papermill": {
      "duration": 0.030129,
      "end_time": "2024-10-01T17:20:29.094179",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:29.064050",
      "status": "completed"
     },
@@ -1546,7 +1546,7 @@
     "papermill": {
      "duration": 0.031644,
      "end_time": "2024-10-01T17:20:29.155611",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:29.123967",
      "status": "completed"
     },
@@ -1574,7 +1574,7 @@
     "papermill": {
      "duration": 1.483508,
      "end_time": "2024-10-01T17:20:30.670393",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:29.186885",
      "status": "completed"
     },
@@ -1610,7 +1610,7 @@
     "papermill": {
      "duration": 0.03063,
      "end_time": "2024-10-01T17:20:30.735275",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:30.704645",
      "status": "completed"
     },
@@ -1628,7 +1628,7 @@
     "papermill": {
      "duration": 0.029985,
      "end_time": "2024-10-01T17:20:30.795615",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:30.765630",
      "status": "completed"
     },
@@ -1644,7 +1644,7 @@
     "papermill": {
      "duration": 0.029633,
      "end_time": "2024-10-01T17:20:30.855414",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:30.825781",
      "status": "completed"
     },
@@ -1673,7 +1673,7 @@
     "papermill": {
      "duration": 0.041119,
      "end_time": "2024-10-01T17:20:30.927244",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:30.886125",
      "status": "completed"
     },
@@ -1701,7 +1701,7 @@
     "papermill": {
      "duration": 0.040902,
      "end_time": "2024-10-01T17:20:30.998771",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:30.957869",
      "status": "completed"
     },
@@ -1726,7 +1726,7 @@
     "papermill": {
      "duration": 0.057662,
      "end_time": "2024-10-01T17:20:31.087419",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:31.029757",
      "status": "completed"
     },
@@ -1958,7 +1958,7 @@
     "papermill": {
      "duration": 0.041105,
      "end_time": "2024-10-01T17:20:31.158919",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:31.117814",
      "status": "completed"
     },
@@ -1983,7 +1983,7 @@
     "papermill": {
      "duration": 0.04056,
      "end_time": "2024-10-01T17:20:31.230208",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:31.189648",
      "status": "completed"
     },
@@ -2008,7 +2008,7 @@
     "papermill": {
      "duration": 0.043159,
      "end_time": "2024-10-01T17:20:31.305929",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:31.262770",
      "status": "completed"
     },
@@ -2045,7 +2045,7 @@
     "papermill": {
      "duration": 0.032219,
      "end_time": "2024-10-01T17:20:31.369399",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:31.337180",
      "status": "completed"
     },
@@ -2069,7 +2069,7 @@
     "papermill": {
      "duration": 3.237087,
      "end_time": "2024-10-01T17:20:34.637726",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:31.400639",
      "status": "completed"
     },
@@ -2104,7 +2104,7 @@
     "papermill": {
      "duration": 0.034331,
      "end_time": "2024-10-01T17:20:34.708215",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:34.673884",
      "status": "completed"
     },
@@ -2121,7 +2121,7 @@
     "papermill": {
      "duration": 0.033763,
      "end_time": "2024-10-01T17:20:34.775746",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:34.741983",
      "status": "completed"
     },
@@ -2139,7 +2139,7 @@
     "papermill": {
      "duration": 0.033633,
      "end_time": "2024-10-01T17:20:34.844877",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:34.811244",
      "status": "completed"
     },
@@ -2163,7 +2163,7 @@
     "papermill": {
      "duration": 0.045262,
      "end_time": "2024-10-01T17:20:34.923966",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:34.878704",
      "status": "completed"
     },
@@ -2189,7 +2189,7 @@
     "papermill": {
      "duration": 0.06849,
      "end_time": "2024-10-01T17:20:35.026925",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:34.958435",
      "status": "completed"
     },
@@ -2408,7 +2408,7 @@
     "papermill": {
      "duration": 0.034559,
      "end_time": "2024-10-01T17:20:35.098095",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:35.063536",
      "status": "completed"
     },
@@ -2432,7 +2432,7 @@
     "papermill": {
      "duration": 0.04886,
      "end_time": "2024-10-01T17:20:35.181691",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:35.132831",
      "status": "completed"
     },
@@ -2460,7 +2460,7 @@
     "papermill": {
      "duration": 0.033935,
      "end_time": "2024-10-01T17:20:35.249953",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:35.216018",
      "status": "completed"
     },
@@ -2477,7 +2477,7 @@
     "papermill": {
      "duration": 0.034949,
      "end_time": "2024-10-01T17:20:35.319869",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:35.284920",
      "status": "completed"
     },
@@ -2501,7 +2501,7 @@
     "papermill": {
      "duration": 0.334623,
      "end_time": "2024-10-01T17:20:35.688851",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:35.354228",
      "status": "completed"
     },
@@ -2553,7 +2553,7 @@
     "papermill": {
      "duration": 0.369232,
      "end_time": "2024-10-01T17:20:36.093736",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:35.724504",
      "status": "completed"
     },
@@ -2603,7 +2603,7 @@
     "papermill": {
      "duration": 0.0355,
      "end_time": "2024-10-01T17:20:36.167094",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:36.131594",
      "status": "completed"
     },
@@ -2627,7 +2627,7 @@
     "papermill": {
      "duration": 6.730961,
      "end_time": "2024-10-01T17:20:42.934147",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:36.203186",
      "status": "completed"
     },
@@ -2665,7 +2665,7 @@
     "papermill": {
      "duration": 0.040592,
      "end_time": "2024-10-01T17:20:43.016343",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:42.975751",
      "status": "completed"
     },
@@ -2682,7 +2682,7 @@
     "papermill": {
      "duration": 0.040827,
      "end_time": "2024-10-01T17:20:43.097208",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:43.056381",
      "status": "completed"
     },
@@ -2706,7 +2706,7 @@
     "papermill": {
      "duration": 0.05106,
      "end_time": "2024-10-01T17:20:43.189330",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:43.138270",
      "status": "completed"
     },
@@ -2732,7 +2732,7 @@
     "papermill": {
      "duration": 0.152783,
      "end_time": "2024-10-01T17:20:43.382558",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:43.229775",
      "status": "completed"
     },
@@ -2762,7 +2762,7 @@
     "papermill": {
      "duration": 0.089058,
      "end_time": "2024-10-01T17:20:43.511751",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:43.422693",
      "status": "completed"
     },
@@ -3001,7 +3001,7 @@
     "papermill": {
      "duration": 0.085104,
      "end_time": "2024-10-01T17:20:43.638177",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:43.553073",
      "status": "completed"
     },
@@ -3240,7 +3240,7 @@
     "papermill": {
      "duration": 0.087179,
      "end_time": "2024-10-01T17:20:43.768222",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:43.681043",
      "status": "completed"
     },
@@ -3479,7 +3479,7 @@
     "papermill": {
      "duration": 0.062619,
      "end_time": "2024-10-01T17:20:43.873935",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:43.811316",
      "status": "completed"
     },
@@ -3580,7 +3580,7 @@
     "papermill": {
      "duration": 0.041264,
      "end_time": "2024-10-01T17:20:43.957587",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:43.916323",
      "status": "completed"
     },
@@ -3604,7 +3604,7 @@
     "papermill": {
      "duration": 0.061871,
      "end_time": "2024-10-01T17:20:44.062315",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:44.000444",
      "status": "completed"
     },
@@ -3630,7 +3630,7 @@
     "papermill": {
      "duration": 0.056475,
      "end_time": "2024-10-01T17:20:44.162779",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:44.106304",
      "status": "completed"
     },
@@ -3656,7 +3656,7 @@
     "papermill": {
      "duration": 0.066239,
      "end_time": "2024-10-01T17:20:44.270752",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:44.204513",
      "status": "completed"
     },
@@ -3682,7 +3682,7 @@
     "papermill": {
      "duration": 177.851339,
      "end_time": "2024-10-01T17:23:42.164030",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:20:44.312691",
      "status": "completed"
     },
@@ -3726,7 +3726,7 @@
     "papermill": {
      "duration": 0.125396,
      "end_time": "2024-10-01T17:23:42.398733",
-     "exception": false,
+     "exception": False,
      "start_time": "2024-10-01T17:23:42.273337",
      "status": "completed"
     },
@@ -3754,7 +3754,7 @@
     }
    ],
    "dockerImageVersionId": 30301,
-   "isGpuEnabled": false,
+   "isGpuEnabled": False,
    "isInternetEnabled": true,
    "language": "python",
    "sourceType": "notebook"
