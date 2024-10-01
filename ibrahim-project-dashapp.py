@@ -411,7 +411,7 @@
       " 14  Condition2     1460 non-null   object \n",
       " 15  BldgType       1460 non-null   object \n",
       " 16  HouseStyle     1460 non-null   object \n",
-      " 17  OverallQual    1460 non-null   int64  \n",
+      " 17  Overall Qual    1460 non-null   int64  \n",
       " 18  OverallCond    1460 non-null   int64  \n",
       " 19  YearBuilt      1460 non-null   int64  \n",
       " 20  YearRemodAdd   1460 non-null   int64  \n",
@@ -789,7 +789,7 @@
        "      <th>MSSubClass</th>\n",
        "      <th>LotFrontage</th>\n",
        "      <th>LotArea</th>\n",
-       "      <th>OverallQual</th>\n",
+       "      <th>Overall Qual</th>\n",
        "      <th>OverallCond</th>\n",
        "      <th>YearBuilt</th>\n",
        "      <th>YearRemodAdd</th>\n",
@@ -936,7 +936,7 @@
        "</div>"
       ],
       "text/plain": [
-       "   MSSubClass  LotFrontage  LotArea  OverallQual  OverallCond  YearBuilt  \\\n",
+       "   MSSubClass  LotFrontage  LotArea  Overall Qual  OverallCond  YearBuilt  \\\n",
        "0          60         65.0     8450            7            5       2003   \n",
        "1          20         80.0     9600            6            8       1976   \n",
        "2          60         68.0    11250            7            5       2001   \n",
@@ -1103,7 +1103,7 @@
      "output_type": "stream",
      "text": [
       "SalePrice ile güçlü bir şekilde ilişkili 10 değer var:\n",
-      "OverallQual     0.790982\n",
+      "Overall Qual     0.790982\n",
       "GrLivArea       0.708624\n",
       "GarageCars      0.640409\n",
       "GarageArea      0.623431\n",
@@ -1423,7 +1423,7 @@
       "     GarageCars: 0.6370954062078923\n",
       "       2ndFlrSF: 0.6733048324568376\n",
       "      GrLivArea: 0.7086244776126515\n",
-      "    OverallQual: 0.7909816005838053\n"
+      "    Overall Qual: 0.7909816005838053\n"
      ]
     }
    ],
@@ -1477,7 +1477,7 @@
      "output_type": "stream",
      "text": [
       "SalePrice ile güçlü bir şekilde ilişkili 11 değer var:\n",
-      "['YearRemodAdd', 'YearBuilt', 'TotRmsAbvGrd', 'FullBath', '1stFlrSF', 'GarageArea', 'TotalBsmtSF', 'GarageCars', '2ndFlrSF', 'GrLivArea', 'OverallQual']\n"
+      "['YearRemodAdd', 'YearBuilt', 'TotRmsAbvGrd', 'FullBath', '1stFlrSF', 'GarageArea', 'TotalBsmtSF', 'GarageCars', '2ndFlrSF', 'GrLivArea', 'Overall Qual']\n"
      ]
     }
    ],
