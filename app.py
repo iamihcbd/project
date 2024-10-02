@@ -11,9 +11,17 @@ df = pd.read_csv('AmesHousing.csv')
 if 'LotFrontage' in df.columns:
     df['LotFrontage'].fillna(df['LotFrontage'].median(), inplace=True)
 
-df['MasVnrArea'].fillna(0, inplace=True)
-df['GarageYrBlt'].fillna(df['YearBuilt'], inplace=True)
-df.drop(['PID'], axis=1, inplace=True)
+# Check if 'MasVnrArea' exists in the DataFrame
+if 'MasVnrArea' in df.columns:
+    df['MasVnrArea'].fillna(0, inplace=True)
+
+# Check if 'GarageYrBlt' exists in the DataFrame
+if 'GarageYrBlt' in df.columns:
+    df['GarageYrBlt'].fillna(df['YearBuilt'], inplace=True)
+
+# Drop 'PID' column if it exists
+if 'PID' in df.columns:
+    df.drop(['PID'], axis=1, inplace=True)
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
