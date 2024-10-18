@@ -96,4 +96,26 @@ def update_graph(graph_type, neighborhood, year_range):
     filtered_df = df[(df['Year Built'] >= year_range[0]) & (df['Year Built'] <= year_range[1])]
     
     if neighborhood != 'All':
-        filtered
+        filtered_df = filtered_df[filtered_df['Neighborhood'] == neighborhood]
+
+    if graph_type == 'scatter':
+        fig = px.scatter(filtered_df, x='Gr Liv Area', y='SalePrice', color='Overall Qual',
+                         title="Living Area vs Sale Price",
+                         labels={'Gr Liv Area': 'Above Grade Living Area (sq ft)', 'SalePrice': 'Sale Price'},
+                         hover_data=['Neighborhood'])
+        summary = "The scatter plot shows a relationship between living area and sale price."
+    elif graph_type == 'histogram':
+        fig = px.histogram(filtered_df, x='SalePrice', nbins=50, title="Distribution of Sale Prices")
+        summary = "The histogram shows that most homes have sale prices below $300,000."
+    elif graph_type == 'boxplot':
+        fig = px.box(filtered_df, x='Neighborhood', y='Lot Area', title="Lot Area by Neighborhood")
+        summary = "The box plot reveals differences in lot sizes across neighborhoods."
+    
+    return fig, summary
+
+# Expose the Flask server for deployment
+server = app.server
+
+# Run the app locally for development
+if __name__ == "__main__":
+    app.run_server(debug=True)
