@@ -50,6 +50,26 @@ app.layout = html.Div(children=[
         value='scatter'
     ),
 
+    # Dropdown for neighborhood selection
+    html.Label('Choose Neighborhood:'),
+    dcc.Dropdown(
+        id='neighborhood-dropdown',
+        options=[{'label': neighborhood, 'value': neighborhood} for neighborhood in df['Neighborhood'].unique()],
+        value='All',  # Default is All
+        placeholder='Select a neighborhood'
+    ),
+
+    # Range slider for year selection
+    html.Label('Select Year Range:'),
+    dcc.RangeSlider(
+        id='year-slider',
+        min=df['Year Built'].min(),
+        max=df['Year Built'].max(),
+        step=1,
+        value=[df['Year Built'].min(), df['Year Built'].max()],
+        marks={str(year): str(year) for year in range(df['Year Built'].min(), df['Year Built'].max() + 1, 5)}
+    ),
+
     dcc.Graph(id='main-graph'),
 
     html.H2(children='Summary of Analysis'),
@@ -67,20 +87,13 @@ from dash.dependencies import Input, Output
 @app.callback(
     [Output('main-graph', 'figure'),
      Output('data-summary', 'children')],
-    [Input('graph-type-dropdown', 'value')]
+    [Input('graph-type-dropdown', 'value'),
+     Input('neighborhood-dropdown', 'value'),
+     Input('year-slider', 'value')]
 )
-def update_graph(graph_type):
-    if graph_type == 'scatter':
-        fig = scatter_fig
-        summary = "The scatter plot shows a relationship between living area and sale price."
-    elif graph_type == 'histogram':
-        fig = histogram_fig
-        summary = "The histogram shows that most homes have sale prices below $300,000."
-    elif graph_type == 'boxplot':
-        fig = box_plot_fig
-        summary = "The box plot reveals differences in lot sizes across neighborhoods."
+def update_graph(graph_type, neighborhood, year_range):
+    # Filter based on neighborhood and year range
+    filtered_df = df[(df['Year Built'] >= year_range[0]) & (df['Year Built'] <= year_range[1])]
     
-    return fig, summary
-
-# Expose the Flask server to be run by gunicorn
-server = app.server
+    if neighborhood != 'All':
+        filtered
