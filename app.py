@@ -6,20 +6,16 @@ import pandas as pd
 # Load the Ames Housing dataset
 df = pd.read_csv('AmesHousing.csv')
 
-# Data preparation based on ibrahim-project-dashapp.py
-# Check if 'LotFrontage' exists in the DataFrame
+# Data preparation
 if 'LotFrontage' in df.columns:
     df['LotFrontage'].fillna(df['LotFrontage'].median(), inplace=True)
 
-# Check if 'MasVnrArea' exists in the DataFrame
 if 'MasVnrArea' in df.columns:
     df['MasVnrArea'].fillna(0, inplace=True)
 
-# Check if 'GarageYrBlt' exists in the DataFrame
 if 'GarageYrBlt' in df.columns:
     df['GarageYrBlt'].fillna(df['YearBuilt'], inplace=True)
 
-# Drop 'PID' column if it exists
 if 'PID' in df.columns:
     df.drop(['PID'], axis=1, inplace=True)
 
@@ -66,10 +62,12 @@ app.layout = html.Div(children=[
 ])
 
 # Callback for interactivity
+from dash.dependencies import Input, Output
+
 @app.callback(
-    [dash.dependencies.Output('main-graph', 'figure'),
-     dash.dependencies.Output('data-summary', 'children')],
-    [dash.dependencies.Input('graph-type-dropdown', 'value')]
+    [Output('main-graph', 'figure'),
+     Output('data-summary', 'children')],
+    [Input('graph-type-dropdown', 'value')]
 )
 def update_graph(graph_type):
     if graph_type == 'scatter':
@@ -86,7 +84,3 @@ def update_graph(graph_type):
 
 # Expose the Flask server to be run by gunicorn
 server = app.server
-
-# Run the app locally for development
-if __name__ == '__main__':
-    app.run_server(debug=True)
